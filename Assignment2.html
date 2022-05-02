@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="exter.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary report</title>
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        
+    
+
+    
+        <button type="button"onclick="clickfunction()"class="button1">Indian</button>
+        <button type="button"onclick="clickamerican()">America</button>
+        <button type="button"onclick="clickeurope()">Europe</button>
+        <hr>
+        <div class="jumbotron-text-center">
+            <h1>Salary report</h1>
+        </div>
+    
+    <div class="container" style="background-color:bisque">
+        <div class="row">
+
+    <table class="table ">
+        <thead>
+            <tr>
+        <th>sl no</th>
+        <th>employee name</th>
+        <th>salary</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            
+            <td>1</td>
+            <td>Satish</td>
+            <td>&#8377 12000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nitin</td>
+            <td>&#8377 12500</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Trisha</td>
+            <td>&#8377 13000</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sunil</td>
+            <td>&#8377 13500</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Sweta</td>
+            <td>&#8377 14000</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <table id="t1" class="toc1">
+            <tr>
+                <th>Serial no</th>
+                <th>Employee name</th>
+                <th>Salary</th>
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Joseph</td>
+                <td>&dollar;12</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sunita</td>
+                <td>&dollar;15</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Raj</td>
+                <td>&dollar;17</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sunny</td>
+                <td>&dollar;20</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Jack</td>
+                <td>&dollar;21</td>
+            </tr>
+        </table>
+        <table id="t2" class="toc2">
+            <tr>
+                <th>Serial no</th>
+                <th>Employee name</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Samir</td>
+                <td>&euro;30</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Neeta</td>
+                <td>&euro;45</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Meena</td>
+                <td>&euro;46</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Javed</td>
+                <td>&euro;60</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Salina</td>
+                <td>&euro;80</td>
+            </tr>
+        </table>
+    
+    
+    <script>
+        function clickfunction(){
+            document.getElementsByClassName("table").classList.toggle("table");
+            
+            
+            
+
+            
+            
+        }
+        function clickamerican(){
+            document.getElementById("t1").classList.toggle("toc1");
+            document.getElementById("t1").style.backgroundColor="pink";
+            document.getElementById("t1").style.padding="60px"
+        
+        }
+        function clickeurope(){
+            document.getElementById("t2").classList.toggle("toc2");
+            document.getElementById("t2").style.backgroundColor="lime";
+            document.getElementById("t2").style.padding="60px"
+        }
+
+
+    </script>
+    
+
+    
+    
+</body>
+<footer style="background-color: brown;"><center><h1 style="color: azure;">THANK  YOU</h1></center></footer>
+</html>
